@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Downloading binaries from the internet might be dangerous. When you download a release of BTCPayServer Vault on our [GitHub releases page](https://github.com/btcpayserver/BTCPayServer.Vault/releases), you only ensure that the uploader had access to our GitHub repository.
+Downloading binaries from the internet might be dangerous. When you download a release of ZEUSPay Vault on our [GitHub releases page](https://github.com/CSEEEE/BTCPayServer.Vault/releases), you only ensure that the uploader had access to our GitHub repository.
 
 This might be fine, but sometimes you download the same binaries from a different source, or you want additional assurance that those binaries are signed by the developers of the project. (In this case, Nicolas Dorier)
 
@@ -12,7 +12,7 @@ If you do not care about who signed the executable and verifying the integrity o
 
 For this you need the `gpg` tool, make sure it is installed on your machine.
 
-On the [release page](https://github.com/btcpayserver/BTCPayServer.Vault/releases/latest), download:
+On the [release page](https://github.com/CSEEEE/BTCPayServer.Vault/releases/latest), download:
 
 1. The release binary of your choice.
 2. The `SHA256SUMS.asc` file
@@ -86,7 +86,7 @@ Which should output something like:
 ```text
 gpg: Signature made Thu Dec  5 20:40:47 2019 JST
 gpg:                using RSA key 62FE85647DEDDA2E
-gpg: Good signature from "BTCPayServer Vault <nicolas.dorier@gmail.com>" [unknown]
+gpg: Good signature from "ZEUSPay Vault <nicolas.dorier@gmail.com>" [unknown]
 gpg: WARNING: This key is not certified with a trusted signature!
 gpg:          There is no indication that the signature belongs to the owner.
 Primary key fingerprint: 7121 BDE3 555D 9BE0 6BDD  C681 62FE 8564 7DED DA2E

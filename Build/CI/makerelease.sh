@@ -34,7 +34,7 @@ mkdir -p dist
 release="$(cat Build/RELEASE.md)"
 version="$(echo "$GITHUB_REF_NAME" | cut -d'/' -f2)"
 payload="$(jq -M --arg "tag_name" "$GITHUB_REF_NAME" \
-   --arg "name" "BTCPayServer Vault $version" \
+   --arg "name" "ZEUSPay Vault $version" \
    --arg "body" "$release" \
    --argjson "draft" $draft \
    --argjson "prerelease" $prerelease \

@@ -1,21 +1,21 @@
-[![NuGet](https://img.shields.io/nuget/v/BTCPayServer.Hwi.svg)](https://www.nuget.org/packages/BTCPayServer.Hwi) [![Build status](https://github.com/btcpayserver/BTCPayServer.Vault/workflows/CI/badge.svg)](https://github.com/btcpayserver/BTCPayServer.Vault/actions?query=workflow%3ACI)
+[![NuGet](https://img.shields.io/nuget/v/BTCPayServer.Hwi.svg)](https://www.nuget.org/packages/BTCPayServer.Hwi) [![Build status](https://github.com/CSEEEE/BTCPayServer.Vault/workflows/CI/badge.svg)](https://github.com/CSEEEE/BTCPayServer.Vault/actions?query=workflow%3ACI)
 
-# BTCPayServer.Vault
+# ZEUSPay.Vault
 
 This project is composed of two parts:
 
-* [BTCPayServer.Hwi](https://github.com/btcpayserver/BTCPayServer.Vault/tree/master/BTCPayServer.Hwi): An easy to use library ([nuget](https://www.nuget.org/packages/BTCPayServer.Hwi)) wrapping the command line interface of the [hwi project](https://github.com/bitcoin-core/HWI).
-* [BTCPayServer.Vault](https://github.com/btcpayserver/BTCPayServer.Vault/tree/master/BTCPayServer.Vault): A simple local web server providing access to the hardware wallet physically connected to your computer via hwi.
+* [ZEUSPay.Hwi](https://github.com/CSEEEE/BTCPayServer.Vault/tree/master/BTCPayServer.Hwi): An easy to use library ([nuget](https://www.nuget.org/packages/BTCPayServer.Hwi)) wrapping the command line interface of the [hwi project](https://github.com/bitcoin-core/HWI).
+* [ZEUSPay.Vault](https://github.com/CSEEEE/BTCPayServer.Vault/tree/master/BTCPayServer.Vault): A simple local web server providing access to the hardware wallet physically connected to your computer via hwi.
 
-## Why BTCPayServer Vault
+## Why ZEUSPay Vault
 
-BTCPayServer Vault allows web applications to access your hardware wallet, this enables a better integrated user experience.
+ZEUSPay Vault allows web applications to access your hardware wallet, this enables a better integrated user experience.
 
 ## How to install
 
 ### Direct download
 
-The binaries are on our [release page](https://github.com/btcpayserver/BTCPayServer.Vault/releases/latest).
+The binaries are on our [release page](https://github.com/CSEEEE/BTCPayServer.Vault/releases/latest).
 
 ### Via brew (macOS only)
 
@@ -27,7 +27,7 @@ brew install btcpayserver-vault
 
 ## How does BTCPayServer Vault work
 
-When running the BTCPayServer Vault, a local webserver is hosted on `http://127.0.0.1:65092` which web applications, via your local browser, can connect to in order to interact with your hardware wallet.
+When running the ZEUSPay Vault, a local webserver is hosted on `http://127.0.0.1:65092` which web applications, via your local browser, can connect to in order to interact with your hardware wallet.
 
 The protocol is fairly simple:
 
@@ -71,12 +71,12 @@ dotnet run
 
 ## Documentation
 
-Video below explains how to use BTCPay Vault with BTCPay Server.
+Video below explains how to use ZEUSPay Vault with ZEUSPay Instance.
 
 [![](https://img.youtube.com/vi/hh_cm8MKl2g/mqdefault.jpg)](https://www.youtube.com/watch?v=hh_cm8MKl2g)
 
-- [BTCPay Vault announcement](https://blog.btcpayserver.org/btcpay-vault/)
-- [Using BTCPay Vault with BTCPay Server](https://docs.btcpayserver.org/Vault)
+- [ZEUSPay Vault announcement](https://blog.ZEUSPay.com/zeuspay-vault/)
+- [Using ZEUSPay Vault with ZEUSPay Instance](https://docs.zeuspay.com/Vault)
 
 ## Licence
 

@@ -1,7 +1,7 @@
 # Apple signing process
 
 ## Introduction
-This document how to setup your travis environment so that it can properly sign BTCPayServer Vault as part of the build process.
+This document how to setup your travis environment so that it can properly sign ZEUSPay Vault as part of the build process.
 
 At the end of this process, you will have configured `APPLE_DEV_ID_CERT` and `APPLE_DEV_ID_CERT_PASSWORD` to the correct value for travis to sign your MAC application.
 
